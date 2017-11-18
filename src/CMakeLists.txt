@@ -86,6 +86,7 @@ INCLUDE_DIRECTORIES(${SOURCE_DIR})
 
 set(PARSER_LIB_SRC ${BINARY_DIR}/${FLEX_OUTPUT}
                    ${BINARY_DIR}/${BISON_OUTPUT}
+                   ${SOURCE_DIR}/printer.c
                    ${SOURCE_DIR}/verilog_ast.c
                    ${SOURCE_DIR}/verilog_ast_mem.c
                    ${SOURCE_DIR}/verilog_ast_util.c
